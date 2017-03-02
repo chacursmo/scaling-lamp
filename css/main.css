@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    display: flex;
+}
+.soup {
+    flex-direction: column;
+    justify-content: center;
+    background-color: #69C;
+    width: 30em;
+    height: 25em;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 1em;
+    box-shadow: 5px 5px 20px black,
+    1px 1px 5px grey,
+    -1px -1px 3px blue,
+    inset 0 -1px 1px beige,
+    inset 0 1px 1px blue;
+}
+
+.screen {
+    background-color: white;
+        justify-content: center;
+    height: 4em;
+    width: 20em;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px white;
+    border: 1px solid black;
+}
+
+.keyboard {
+    flex-direction: column;
+        justify-content: center;
+    height: 10em;
+    width: 20em;
+    margin: auto;
+}
+
+.buttonrow{
+    flex-direction: row;
+    width: 20em;
+    justify-content: flex-end;
+}
+.key {
+    flex-direction: row;
+    background-color: white;
+    height: 3em;
+    width: 3em;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 1.25em;
+
+}
