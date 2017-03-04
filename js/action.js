@@ -1,8 +1,13 @@
 $(document).ready(function(){
 
 
-$(".seven").click(function(){
-    $(".screen").html("7");
+    var calc = new Calculator();
+    calc.screen();
 });
 
-});
+
+var Calculator = function() {
+    this.screen = function(){
+	$(".screen").html("543");
+    }
+}
