@@ -16,6 +16,7 @@ var Controller = function(calc){
 	    console.log("Argwahl");
 	}
 
+
 	calc.display();
     });
 };
@@ -33,5 +34,6 @@ var Calculondo = function(){
     this.display = function(){
 	$(".screen").html(this.screen);
 	console.log(this.screen);
+
     }
 }
