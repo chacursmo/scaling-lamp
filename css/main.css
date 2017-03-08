@@ -12,7 +12,7 @@ html {
     justify-content: center;
     background-color: #69C;
     width: 30em;
-    height: 25em;
+    height: 35em;
     margin: auto;
     margin-top: 50px;
     border-radius: 1em;
@@ -32,13 +32,12 @@ html {
     border-radius: 8px;
     box-shadow: 1px 1px 3px white;
     border: 1px solid black;
+    text-align: right;
 }
 
 .keyboard {
     flex-direction: column;
-        justify-content: center;
-    height: 10em;
-    width: 20em;
+    justify-content: center;
     margin: auto;
 }
 
@@ -56,5 +55,6 @@ html {
     text-align: center;
     vertical-align: bottom;
     font-size: 1.25em;
-
+    border-radius: 10px;
+    box-shadow: -1px 1px 2px white;
 }
